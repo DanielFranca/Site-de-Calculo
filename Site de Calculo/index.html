@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+	*{
+		margin: 0;
+		padding: 0;
+	}
+    header {
+    color: #e54e43;
+    text-align: center;
+    margin-left: 0%;
+    font-size: 2em;
+    margin-top: 2%;
+        
+    }
+
+	body{
+		background-color: #D6E8FF;
+		font-family: 'Roboto Condensed';
+        border-radius: 10px 20px 30px;
+	}
+
+	.nav_tabs{
+		width: 900px;
+		height: 6000px;
+		margin: 50px auto;
+		background-color: #fff;
+		position: relative;
+        border-radius: 10px ;
+	}
+
+	.nav_tabs ul{
+		list-style: none;
+        border-radius: 10px;
+	}
+
+	.nav_tabs ul li{
+		float: left;
+        border-radius: 10px;
+	}
+
+	.tab_label{
+		display: block;
+		width: 100px;
+		background-color: black;
+		padding: 25px;
+		font-size: 20px;
+		color:#fff;
+		cursor: pointer;
+		text-align: center;
+        
+	}
+
+
+	.nav_tabs .rd_tab { 
+	display:none;
+	position: absolute;
+}
+
+.nav_tabs .rd_tab:checked ~ label { 
+	background-color: #e54e43;
+	color:#fff;}
+
+.tab-content{
+	border-top: solid 5px #e54e43;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	height: 320px;
+	width: 900px;
+	left: 0;	
+}
+
+.rd_tab:checked ~ .tab-content{
+	display: block;
+}
+.tab-content h2{
+	padding: 10px;
+	color: #e54e43;
+}
+.tab-content article{
+	padding: 10px;
+	color: black;
+}
+    img    {
+    border-radius: 50%;
+}
+/* Works on Firefox */
+* {
+		scrollbar-width: thin;
+		scrollbar-color: white white;
+	  }
+	  
+	  /* Works on Chrome, Edge, and Safari */
+	  *::-webkit-scrollbar {
+		width: 12px;
+	  }
+	  
+	  *::-webkit-scrollbar-track {
+		background: white;
+	  }
+	  
+	  *::-webkit-scrollbar-thumb {
+		background-color: red;
+		border-radius: 20px;
+		border: 3px solid white;
+	  }
+
+</style>
+<body>
+   
+    <header>
+        <h1>WebQuest</h1>
+    </header>
+    <nav class="nav_tabs">
+        <ul>
+            <li>
+                <input type="radio" id="Introdução" class="rd_tab" name="tabs" checked>
+                <label for="Introdução" class="tab_label">Introdução</label>
+                <div class="tab-content">
+                    <h2>Introdução</h2>
+                    <article>
+                            <br><h3><hr> <b>Objetivos da Web Quest</b>
+
+
+                            <br></h3>
+                                
+                                &bull; Obter conhecimentos específicos sobre os conteúdos expostos em sala de aula.<br>
+                                &bull; Ajudar no Aprendizado<br>
+                                &bull; Ajudar outras pessoas a terem acesso a essa ferramenta<br>
+
+                            <br><h3><hr>Introdução</h3>
+
+                <p><ul>Esse WebQuest foi desenvolvido no dia 11 de Agosto de 2021, pelos os aluno de Análise e Desenvolvimento de Sistemas: Daniel da Anunciação França Leite, Charles Magalhães Lopes Junior, Enzo Giovanni Mendes, Guilherme Zagato e João Victor Holtz Palma da Faculdade de Tecnologia de Carapicuíba, para a matéria de Cálculo do Professor responsável: Luciano Octavio Condori Huanca, com o objetivo exclusivo de material de apoio e como forma de trabalho para desenvolvermos um melhor estudo da matéria de Cálculo.</ul></p>
+                            </p>
+        
+                        </p>
+        
+                        
+                    </article>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tab" id="Vídeos" checked>
+                <label for="Vídeos" class="tab_label">Vídeos</label>
+                <div class="tab-content">
+                    <h2>Vídeos</h2>
+                    <article>
+                    bbbbb
+                    </article>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tab" id="Materiais">
+                <label for="Materiais" class="tab_label">Materiais</label>
+                <div class="tab-content">
+                    <h2>Materiais</h2>
+                    <article>
+                        ccccc
+                    </article>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tab" id="Referências">
+                <label for="Referências" class="tab_label">Referências</label>
+                <div class="tab-content">
+                    <h2>Referências</h2>
+                    <article>
+                        ccccc
+                    </article>
+                </div>
+            <li>
+                <input type="radio" name="tabs" class="rd_tab" id="Extras">
+                <label for="Extras" class="tab_label">Extras</label>
+                <div class="tab-content">
+                    <h2>Extras</h2>
+                    <article>
+                        ccccc
+                    </article>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tab" id="Colaboradores">
+                <label for="Colaboradores" class="tab_label">Colaboradores</label>
+                <div class="tab-content">
+                    <h2>Colaboradores</h2>
+                    <article>
+                        <strong>Daniel da Anunciação França Leite, Análise e Desenvolvimento de Sistemas (FATEC)</strong><br>
+                       <br><img src="pp.jpg" alt="some text" width=200 height=200 left=60><br>
+
+                        <br><strong>Guilherme Zagato, Análise e Desenvolvimento de Sistemas (FATEC)</strong><br>
+                        <br><img src="zagato.jpeg" alt="some text" width=200 height=200 left=60><br> 
+
+                        <br><strong>João Victor Holtz, Análise e Desenvolvimento de Sistemas (FATEC)</strong><br>
+                        <br><img src="joao.jpg" alt="some text" width=200 height=200 left=60><br>
+
+                        <br><strong>Enzo Giovanni, Análise e Desenvolvimento de Sistemas (FATEC)</strong><br>
+                        <br><img src="enzo.jpg" alt="some text" width=200 height=200 left=60><br>
+
+                        <br><strong>Charles Magalhães, Análise e Desenvolvimento de Sistemas (FATEC)</strong><br>
+                        <br><img src="charles.jpg" alt="some text" width=200 height=200 left=60><br>
+                        
+                    </article>
+                </div> 
+            </li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
+
+
+
+
+
+
